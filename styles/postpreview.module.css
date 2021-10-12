@@ -1,0 +1,27 @@
+.container {
+    margin-bottom: 40px;
+}
+.title {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 4px 0;
+    display: block;
+    line-height:26px;
+}
+.title:hover {
+    text-decoration: underline;
+}
+.tag {
+    color: var(--color-secondary);
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: uppercase;
+    font-family: monospace;
+}
+.description {
+    color: var(--color-lightgray);
+    font-size: 14px;
+    line-height: 20px;
+}

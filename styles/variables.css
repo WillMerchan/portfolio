@@ -1,0 +1,9 @@
+:root {
+    --bg-color-darkest: #1B1B1B;
+    --bg-color-darker:#222222;
+    --bg-color-dark: #333333;
+    --color-secondary: #41F1FC;
+    --color-lightgray: #B2B2B2;
+    --shadow-large: -20px -20px 60px #242222, 20px 20px 60px #0A0909;
+  }
+  

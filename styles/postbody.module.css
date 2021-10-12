@@ -1,0 +1,48 @@
+.markdown {
+    text-overflow: wrap;
+    padding-top: 20px;
+  }
+  
+  .markdown p,
+  .markdown ul,
+  .markdown ol,
+  .markdown blockquote,
+  .markdown h4 {
+    margin-bottom: 16px;
+  }
+  .markdown li {
+      margin-bottom: 16px;
+  }
+  .markdown code {
+      background-color: var(--bg-color-darkest);
+      line-height: 22px;
+      font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;;
+      font-size: 16px;
+      word-wrap: break-word;
+  }
+  .markdown pre {
+      display: block;
+      text-overflow: wrap;
+      word-wrap: break-word;
+      background-color: var(--bg-color-darkest);
+      width: 100%;
+      white-space: pre-wrap;
+      padding: 8px;
+      border-radius: 3px;
+      margin-bottom: 16px;
+  }
+  .markdown h4 {
+    background: -webkit-linear-gradient(10deg, rgb(57, 248, 232), rgb(200, 37, 233));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .markdown img {
+      width: 100%;
+      max-width:100%;
+      margin: 0 auto;
+      text-align: center;
+  }
+  .markdown a {
+    color: var(--color-secondary)
+  }

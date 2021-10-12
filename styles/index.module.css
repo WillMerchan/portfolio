@@ -1,0 +1,15 @@
+
+
+.container {
+    max-width: 700px;
+    background-color: var(--bg-color-dark);
+    margin: 0 auto;
+    padding: 48px 40px;
+    border-radius: 30px;
+    box-shadow: var(--shadow-large);
+    box-sizing: border-box;
+}
+
+.wide {
+    max-width: 1000px;
+}

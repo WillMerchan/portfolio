@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+.avatar {
+    border-radius: 50%;
+    width: 100px;
+    display: block;
+}
+.title {
+    font-family: 'Noto Sans Display';
+    font-size: 40px;
+    letter-spacing: 1px;
+    color: white;
+    margin: 40px 0 32px;
+}
+.body {
+    color: var(--color-lightgray);
+    max-width: 600px;
+    line-height: 22px;
+}
+.body a {
+    color: var(--color-secondary);
+}
