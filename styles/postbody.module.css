@@ -11,7 +11,8 @@
     margin-bottom: 16px;
   }
   .markdown li {
-      margin-bottom: 16px;
+      margin-bottom: 4px;
+      line-height: 24px;
   }
   .markdown code {
       background-color: var(--bg-color-darkest);
@@ -35,6 +36,15 @@
     background: -webkit-linear-gradient(10deg, rgb(57, 248, 232), rgb(200, 37, 233));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    line-height: 44px;
+    margin-top:32px;
+    margin-bottom: 8px;
+  }
+  .markdown h5 {
+    line-height: 44px;
+    background: -webkit-linear-gradient(10deg, rgb(197, 255, 251), rgb(190, 95, 209));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   .markdown img {
@@ -42,7 +52,19 @@
       max-width:100%;
       margin: 0 auto;
       text-align: center;
+      border-radius: 4px;
   }
   .markdown a {
     color: var(--color-secondary)
+  }
+
+  .markdown ol, .markdown ul {
+    margin-left: 14px;
+  }
+
+  .markdown ol {
+    list-style:decimal;
+  }
+  .markdown ul {
+    list-style: disc;
   }

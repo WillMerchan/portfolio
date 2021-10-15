@@ -18,7 +18,7 @@ export default function Post({ post, morePosts, preview }) {
         <h3>Loading…</h3>
       ) : (
         <>
-          <article className='mb-32'>
+          <article>
             <Head>
               <title>{post.title}</title>
               <meta property='og:image' content={post.ogImage.url} />
