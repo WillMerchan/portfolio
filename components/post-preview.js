@@ -7,7 +7,7 @@ export default function PostPreview({ title, coverImage, date, slug, type }) {
   const path = type == "post" ? "posts" : "portfolio";
   return (
     <div className={styles.container}>
-      <div className='mb-5'>
+      <div className={styles.cover}>
         {coverImage && (
           <CoverImage
             slug={slug}
